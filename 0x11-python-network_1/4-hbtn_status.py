@@ -2,7 +2,7 @@
 """
 Script that fetches https://intranet.hbtn.io/status
 """
-import requests
+import urllib.requests
 
 if __name__ == '__main__':
     url = "https://intranet.hbtn.io/status"
